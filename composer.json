@@ -1,0 +1,18 @@
+{
+    "name": "hojaonline/retrostats",
+    "description": "This extension copies the exact functionality for writing the Apache-style log files as used to be part of the core until v4.7. The only issue to take care of is to add the [FE][logfile_dir] setting in AdditionalConfiguration.php instead of LocalConfiguration because the Install tool will remove it otherwise.",
+    "type": "typo3-cms-extension",
+    "version": "0.1.2",
+    "license": "GPL-3.0+",
+    "require": {
+        "typo3/cms-core": ">=6.2.0,<9.0.0"
+    },
+    "authors": [
+        {
+            "name": "Hoja.M.A",
+            "email": "hoja@tnt-graphics.ch",
+            "homepage": "http://www.hoja.in/"
+        }
+    ],
+    "minimum-stability": "dev"
+}
